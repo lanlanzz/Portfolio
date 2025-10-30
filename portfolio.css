@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS GERAIS*/
+body{
+    background-color: #f7f9fc;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+/*MENU LATERAL*/
+.nav-bar{
+    background-color: #1e3a8a;
+    color: #fff;
+    height: 100%;
+    left: 0;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 220px;
+}
+.nav-bar h2{
+    margin-bottom: 30px;
+}
+.nav-br ul{
+    list-style: none;
+    padding: 0;
+}
+.nav-bar ul li{
+    margin-bottom: 15px;
+}
+.nav-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.nav-bar ul li a:hover{
+    color: #93c5fd;
+}
+/*CONTEÚDO PRINCIPAL*/
+main{
+    margin-left: 250px;
+    padding: 40px;
+}
+.secao{
+    margin-bottom: 80px;
+}
+.secao h2{
+    border-bottom: 3px groove #1e3a8a;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+/*Sobre*/
+.sobre-container{
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.sobre-container img{
+    border: 5px solid #e0f2fe;
+    border-radius: 50px;
+    width: 180px;
+}
+.texto-sobre p{
+    background-color: #e0f2fe;
+    border-radius: 8px;
+    line-height: 1.6;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/*Projetos*/
+.cards-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
