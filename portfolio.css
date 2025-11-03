@@ -1,4 +1,3 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -10,18 +9,17 @@ body {
     background-color: beige;
     color: #333;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+    zoom: 0.6;
 }
 
 /* MENU LATERAL */
 .nav-bar {
+    position: fixed;
     background-color: #1e3a8a;
     color: #fff;
     height: 100%;
-    left: 0;
-    padding: 30px;
-    position: fixed;
-    top: 0;
     width: 220px;
+    padding: 30px 10px;
 }
 
 .nav-bar h2 {
@@ -36,7 +34,7 @@ body {
 }
 
 .nav-bar ul li {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -94,8 +92,8 @@ main {
 /* PROJETOS */
 .cards-container {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -154,16 +152,13 @@ main {
 
 /* BOTÃO WHATSAPP */
 .btn a {
- 
-    color: white;
+    color: rgb(74, 75, 182);
     padding: 10px 18px;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
     transition: background 0.3s;
 }
-
-
 
 /* RODAPÉ */
 footer {
@@ -173,4 +168,5 @@ footer {
     padding: 15px;
     margin-top: 40px;
     font-size: 0.9rem;
+    border-top: 3px solid #93c5fd;
 }
